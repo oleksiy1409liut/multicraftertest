@@ -21,11 +21,11 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
         craftTime: 90  # Value is per tick! Multiply the desired value (in seconds) by 60 to get the correct amount (the game run at 60 ticks per second).
         input: {
             items: [
-   "copper/2",
-   "coal/1"
+   copper/2
+   coal/1
             ]
             liquids: [
-   "water/0.1"
+   water/0.1
             ] # Values are per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             power: 0.5 # Value is per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             heat: 0
@@ -33,13 +33,13 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
         }
         output: {
             items: [
-   "silicon/4"
+   silicon/4
             ]
             liquids: [
-   "slag/0.05"
+   slag/0.05
             ] # Values are per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             power: 0 # Value is per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
-            heat: 2
+            heat: 0
             // payloads: [] # NOT SUPPORTED YET! IT WON'T DO ANYTHING!
         }
         # Example for amount to amount/tick conversion:
