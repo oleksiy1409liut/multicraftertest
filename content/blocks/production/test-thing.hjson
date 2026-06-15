@@ -47,7 +47,7 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
         #     0.83 water/tick = 0.83 * 60 = 50 water/second
         # It works for power or liquids quantity.
 
-        craftEffect: drill
+        craftEffect: none
         updateEffect: none
         updateEffectChance: 0.04
         updateEffectSpread: 4
