@@ -25,7 +25,7 @@ jsonRecipes: [
         name: second-basic
         input: {
             items: ["titanium/2"]
-            liquids: ["water/10"]
+            liquids: ["water/100"]
         }
         output: {
             items: ["plastanium/1"]
