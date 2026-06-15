@@ -27,12 +27,12 @@ jsonRecipes: [
         name: concrete-brick
         input: {
             items: ["titanium/2"]
-            liquids: ["water/10"]
-            power: 1.75
+            liquids: ["projectc-purified-water/0.2"]
+            power: 1.5
         }
         output: {
             items: ["plastanium/1"]
-            liquids: ["water/0.5"]
+            liquids: ["slag/0.5"]
             heat: 1
         }
         craftTime: 160  # = 10 seconds
