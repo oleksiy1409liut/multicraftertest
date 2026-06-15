@@ -1,7 +1,7 @@
 {
 type: material
-name: aluminium
-description: basic material used in electric things and as foil
+name: Aluminium
+description: Basic material used in electric things and as foil.
 cost: 3.0
 color: ffffff
 research: copper
