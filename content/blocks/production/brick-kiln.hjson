@@ -3,7 +3,7 @@ type: MultiCrafter
 
 # You can define any block variable below, as long as it is supported by the game.
 name: "Brick Kiln"
-description: "A kiln for smelting bricks"
+description: "A simple kiln for smelting bricks, enough for early game but will be useless later on."
 size: 2
 itemCapacity: 15
 health: 200
@@ -13,11 +13,12 @@ jsonRecipes: [
     {
         name: clay-brick
         input: {
-            items: ["graphite/10"]
-            liquids: ["water/0.2"]
+            items: ["projectc-clay/4"]
+            liquids: ["water/0.3"]
+            power: 0.5
         }
         output: {
-            items: ["silicon/2"]
+            items: ["projectc-clay-brick/2"]
         }
         craftTime: 120  # = 1 second
         unlocked: true
@@ -27,6 +28,7 @@ jsonRecipes: [
         input: {
             items: ["titanium/2"]
             liquids: ["water/10"]
+            power: 1.5
         }
         output: {
             items: ["plastanium/1"]
@@ -39,5 +41,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["copper/35", "lead/10", "graphite/5", "nickel/5"]
+requirements: ["copper/35", "lead/10", "graphite/5", "nickel/5", "aluminium/5"]
 category: "crafting"
