@@ -1,7 +1,7 @@
 {
 type: material
-name: clay
-description: only use for this is to extract minerals and for clay bricks, fun to play around with
+name: Clay
+description: only use for this material is to extract minerals and for clay bricks, fun to play around with.
 cost: 3.0
 color: ffffff
 research: copper
