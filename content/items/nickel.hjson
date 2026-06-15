@@ -1,7 +1,7 @@
 {
 type: material
-name: nickel
-description: used in machinery and alloying
+name: Nickel
+description: Used in machinery and alloying.
 cost: 3.0
 color: ffffff
 research: copper
