@@ -9,12 +9,11 @@ itemCapacity: 15
 health: 200
 
 # The library specific variables
-jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mod use.
-    # One recipe = one JSON object (with the braces {})
+jsonRecipes: [
     {
         name: first-basic
         input: {
-            items: ["graphite/1"]
+            items: ["graphite/10"]
         }
         output: {
             items: ["silicon/1"]
