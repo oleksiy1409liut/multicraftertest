@@ -1,0 +1,9 @@
+type: Floor
+name: Clay
+itemDrop: clay
+variants: 1
+playerUnmineable: true
+attributes: {
+  oil: 0.2
+  sand: 0.8
+}
