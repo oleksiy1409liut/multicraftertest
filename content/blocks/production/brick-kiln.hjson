@@ -1,0 +1,43 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Brick Kiln"
+description: "A kiln for smelting bricks"
+size: 2
+itemCapacity: 15
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: clay-brick
+        input: {
+            items: ["graphite/10"]
+            liquids: ["water/0.2"]
+        }
+        output: {
+            items: ["silicon/2"]
+        }
+        craftTime: 120  # = 1 second
+        unlocked: true
+    }
+    {
+        name: concrete-brick
+        input: {
+            items: ["titanium/2"]
+            liquids: ["water/10"]
+        }
+        output: {
+            items: ["plastanium/1"]
+        }
+        craftTime: 160  # = 10 seconds
+
+        # This recipe will be locked until the player unlock this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["copper/35", "lead/10", "graphite/5", "nickel/5"]
+category: "crafting"
