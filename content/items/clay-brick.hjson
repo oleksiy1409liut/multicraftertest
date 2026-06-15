@@ -1,7 +1,7 @@
 {
 type: material
-name: clay brick
-description: used in buildings, roads, roofs and as a tasty snack
+name: Clay brick
+description: Used in buildings, roads, roofs and as a tasty snack.
 cost: 3.0
 color: ffffff
 research: clay
