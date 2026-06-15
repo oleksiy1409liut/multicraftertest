@@ -1,0 +1,11 @@
+name: "multicraftertest"
+description: 
+''' 
+currently mod for testing multicrafter lib but may be expandede into something bigger
+'''
+author: "Auvathia team's creator"
+minGameVersion: 146
+version: "idk"
+displayName: "multicrafter test"
+subtitle: "idk what to say here"
+dependencies: ["multicrafter"]
