@@ -14,13 +14,13 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
     # All default values, they are all (technically) optional
     {
         # Will cause a conflict if you have multiple recipes with the same name
-        name: empty-recipe
+        name: test1
 
         # From ticks to seconds: 80 / 60 = 1.33 seconds
         # From seconds to ticks: 1.33 * 60 = 80 ticks
         craftTime: 90  # Value is per tick! Multiply the desired value (in seconds) by 60 to get the correct amount (the game run at 60 ticks per second).
         input: {
-            items: ["copper/2","coal/1"]
+            items: ["copper/2", "coal/1"]
             liquids: ["water/0.5"] # Values are per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             power: 0.5 # Value is per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             heat: 0
@@ -30,7 +30,7 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
             items: ["silicon/4"]
             liquids: ["slag/0.1"] # Values are per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
             power: 0 # Value is per tick! Divide the desired amount by 60 to get the correct amount (the game run at 60 ticks per second)
-            heat: 2
+            heat: 0
             // payloads: [] # NOT SUPPORTED YET! IT WON'T DO ANYTHING!
         }
         # Example for amount to amount/tick conversion:
