@@ -1,0 +1,14 @@
+name: Purified Water
+description: Used as great coolant and as ingredient in certain recipes where normal water isnt clean enough.
+heatCapacity: 2
+explosiveness: 0
+temperature: -0.1
+coolant: false
+gas: false
+color: 486acd
+flammability: 0
+gasColor: 7090ea
+barColor: 486acd
+incinerable: true
+lightColor: 7090ea
+research: water
