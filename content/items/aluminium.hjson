@@ -1,0 +1,13 @@
+{
+type: material
+name: aluminium
+description: basic material used in electric things and as foil
+cost: 3.0
+color: ffffff
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
