@@ -28,10 +28,12 @@ jsonRecipes: [
         input: {
             items: ["titanium/2"]
             liquids: ["water/10"]
-            power: 1.5
+            power: 1.75
         }
         output: {
             items: ["plastanium/1"]
+            liquids: ["water/0.5"]
+            heat: 1
         }
         craftTime: 160  # = 10 seconds
 
