@@ -13,14 +13,14 @@ jsonRecipes: [
     {
         name: clay-brick
         input: {
-            items: ["projectc-clay/4"]
+            items: ["projectc-clay/3", "sand/1"]
             liquids: ["water/0.12"]
             power: 0.5
         }
         output: {
             items: ["projectc-clay-brick/2"]
         }
-        craftTime: 100  # = 1 second
+        craftTime: 110  # = 1 second
         unlocked: true
     }
     {
