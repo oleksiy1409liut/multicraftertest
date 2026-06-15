@@ -1,0 +1,13 @@
+{
+type: material
+name: clay
+description: only use for this is to extract minerals and for clay bricks, fun to play around with
+cost: 3.0
+color: ffffff
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
