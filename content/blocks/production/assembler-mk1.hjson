@@ -26,7 +26,7 @@ jsonRecipes: [
     {
         name: motor-mk1
         input: {
-            items: ["copper/2"]
+            items: ["copper/20"]
             liquids: []
             power: 1.5
         }
@@ -43,5 +43,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["copper/75", "lead/45", "graphite/15", "nickel/10", "aluminium/15", "silicon/25"]
+requirements: ["copper/75", "lead/45", "graphite/15", "clay-brick/10", "aluminium/15", "silicon/25"]
 category: "crafting"
