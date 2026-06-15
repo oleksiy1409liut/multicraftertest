@@ -2,8 +2,8 @@
 type: MultiCrafter
 
 # You can define any block variable below, as long as it is supported by the game.
-name: test thing
-description: recipe testing
+name: "test thing"
+description: "recipe testing"
 size: 2
 itemCapacity: 15
 health: 200
@@ -42,8 +42,5 @@ jsonRecipes: [ # /!\ 'recipes' won't work as it is only for internal and Java mo
 
 
 # Back to the default game variables
-requirements: [
-  "copper/10"  
-  "lead/15"
-]
+requirements: ["copper/10"]
 category: "crafting"
