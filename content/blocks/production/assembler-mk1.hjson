@@ -1,0 +1,47 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Assembler MK1"
+description: "An assembler which is used to produce simple complex items like circuits, it is imperfect."
+size: 3
+itemCapacity: 30
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: circuit-mk1
+        input: {
+            items: ["metaglass/1", "projectc-aluminium/2", "silicon/1"]
+            liquids: []
+            power: 1
+        }
+        output: {
+            items: ["projectc-green-circuit/1"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
+        name: motor-mk1
+        input: {
+            items: ["copper/2"]
+            liquids: []
+            power: 1.5
+        }
+        output: {
+            items: ["lead/1"]
+            liquids: ["oil/0.5"]
+            heat: 1
+        }
+        craftTime: 240  # = 4 seconds
+
+        # This recipe will be locked until the player unlock this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["copper/75", "lead/45", "graphite/15", "nickel/10", "aluminium/15", "silicon/25"]
+category: "crafting"
