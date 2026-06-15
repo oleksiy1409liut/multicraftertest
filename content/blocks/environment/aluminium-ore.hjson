@@ -1,0 +1,4 @@
+type: OreBlock
+name: aluminium
+itemDrop: aluminium
+variants: 3
