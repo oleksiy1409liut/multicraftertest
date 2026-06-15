@@ -1,0 +1,13 @@
+{
+type: material
+name: clay brick
+description: used in buildings, roads, roofs and as a tasty snack
+cost: 3.0
+color: ffffff
+research: clay
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
