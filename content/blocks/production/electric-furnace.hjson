@@ -1,0 +1,47 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Furnace"
+description: "This furnace was made to be able to produce either silicon or metaglass in a more efficient and faster way."
+size: 3
+itemCapacity: 20
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: silicon1
+        input: {
+            items: ["graphite/1", "sand/4"]
+            liquids: ["water/0.15"]
+            power: 0.75
+        }
+        output: {
+            items: ["silicon/3"]
+        }
+        craftTime: 100  # = 1.8 seconds
+        unlocked: true
+    }
+    {
+        name: metaglass1
+        input: {
+            items: ["lead/2", "sand/3", "coal/1"]
+            liquids: ["water/0.1"]
+            power: 1.75
+        }
+        output: {
+            items: ["metaglass/3"]
+            liquids: ["slag/0.025"]
+            heat: 1
+        }
+        craftTime: 130  # = 2.1 seconds
+
+        # This recipe will not be locked until the player unlock this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["copper/45", "lead/25", "graphite/15", "projectc-clay-brick/15", "aluminium/10", "silicon/25"]
+category: "crafting"
