@@ -1,0 +1,13 @@
+{
+type: material
+name: Sulfur
+description: A highly flammable material found in big amounts in caves or other rocky biomes, used in assembly or as replacement for coal for a lower efficiency
+cost: 1.0
+color: ffcd66
+research: assembler-mk1
+explosiveness: 0.1
+flammability: 0.9
+radioactivity: 0
+charge: 0
+hardness: 0
+}
