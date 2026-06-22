@@ -3,7 +3,7 @@ type: material
 name: Red Circuit
 description: The second circuit youve made, used in more advanced and specific electornic things, direct upgrade to red circuits.
 cost: 2.5
-color: 84f491
+color: ffcd66
 research: assembler-mk1
 explosiveness: 0
 flammability: 0
