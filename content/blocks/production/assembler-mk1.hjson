@@ -13,31 +13,27 @@ jsonRecipes: [
     {
         name: circuit-mk1
         input: {
-            items: ["metaglass/1", "projectc-aluminium/2", "silicon/1"]
+            items: ["copper/2", "projectc-aluminium/1", "silicon/1"]
             liquids: []
             power: 1
         }
         output: {
             items: ["projectc-green-circuit/1"]
         }
-        craftTime: 120  # = 2 seconds
+        craftTime: 170  # = 2 seconds
         unlocked: true
     }
     {
-        name: motor-mk1
+        name: circuit-mk2
         input: {
-            items: ["copper/20"]
+            items: ["projectc-green-circuit/1", "silicon/1", "projectc-sulfur/2"]
             liquids: []
-            power: 1.5
+            power: 3
         }
         output: {
-            items: ["lead/1"]
-            liquids: ["oil/0.5"]
-            heat: 1
+            items: ["projectc-red-circuit/1"]
         }
-        craftTime: 240  # = 4 seconds
-
-        # This recipe will be locked until the player unlock this research
+        craftTime: 220  # = 4 seconds
         unlocked: true
     }
 ]
